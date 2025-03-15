@@ -5,7 +5,10 @@ import { assets } from "../../assets/assets";
 
 const Specialitymenu = () => {
   return (
-    <div></div>
+    <div id='speciality'>
+
+
+    </div>
   )
 }
 
