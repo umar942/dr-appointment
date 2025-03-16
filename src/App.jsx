@@ -1,21 +1,21 @@
-import React from 'react'
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home  from './pages/home';
-import Doctor from './pages/doctor';
-import Login from './pages/login';
-import About from './pages/about';
-import Contact from './pages/contact';
-import Myprofile from './pages/Myprofile';
-import Myappointment from './pages/Myappointment';
-import appointment from './pages/appointment';
-import Navbar from './components/Navbar';
-import Appointment from './pages/appointment';
-
+import Home from "./pages/home";
+import Doctor from "./pages/doctor";
+import Login from "./pages/login";
+import About from "./pages/about";
+import Contact from "./pages/contact";
+import Myprofile from "./pages/Myprofile";
+import Myappointment from "./pages/Myappointment";
+import appointment from "./pages/appointment";
+import Navbar from "./components/Navbar";
+import Appointment from "./pages/appointment";
+import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className='mx-4 sm:mx-[10%]' >
-<Navbar /> 
+    <div className="mx-4 sm:mx-[10%]">
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Doctor" element={<Doctor />} />
@@ -26,11 +26,10 @@ function App() {
         <Route path="/Myprofile" element={<Myprofile />} />
         <Route path="/Myappointment" element={<Myappointment />} />
         <Route path="/appointment/:docID" element={<Appointment />} />
-          </Routes>
-          </div>
-
+      </Routes>
+      <Footer />
+    </div>
   );
 }
 
 export default App;
-

@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    font-family: Output;
+}
+
 @import "tailwindcss";
 
 .active hr{
@@ -9,6 +15,6 @@
     --color-tahiti: #3ab7bf;
     --color-bermuda: #78dcca;
   }
-  ::-webkit-scrollbar {
+  /* ::-webkit-scrollbar {
    @apply hidden
-  }
+  } */
