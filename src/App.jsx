@@ -1,15 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import Doctor from "./pages/doctor";
 import Login from "./pages/login";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Myprofile from "./pages/Myprofile";
 import Myappointment from "./pages/Myappointment";
-import appointment from "./pages/appointment";
-import Navbar from "./components/Navbar";
 import Appointment from "./pages/appointment";
+import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
 
 function App() {
@@ -25,7 +24,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Myprofile" element={<Myprofile />} />
         <Route path="/Myappointment" element={<Myappointment />} />
-        <Route path="/appointment/:docID" element={<Appointment />} />
+        <Route path="/Appointment/:docId" element={<Appointment />} />
       </Routes>
       <Footer />
     </div>
@@ -33,3 +32,4 @@ function App() {
 }
 
 export default App;
+

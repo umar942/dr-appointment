@@ -5,7 +5,7 @@ import Topdoctor from '../components/Topdoctor'
 import Banner from '../components/banner'
 
 
-const home = () => {
+const Home = () => {
   return (
     <div>
      
@@ -17,4 +17,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
