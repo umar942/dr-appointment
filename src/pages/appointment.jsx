@@ -23,8 +23,7 @@ const Appointment = () => {
 
   return (
     <div>
-      <div>
-       {/* <img src={docInfo.image} alt="" />  */}
+      <div> 
        
      </div>
     </div>
